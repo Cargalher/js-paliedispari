@@ -26,6 +26,29 @@ function generateRandomNumber () {
    console.log(sum);
    document.write(' The sum of your number and the computer number is ' + sum + "." );
 
+    function isItOddOrEven (sum) {
+        if (sum % 2 === 0) {
+            console.log("even")
+            return solution = "even";
+        } else {
+            console.log("odd")
+            return solution = "odd";
+        }
+    }
+
+
+  //testing the isItOddOrEven() function on a number;
+  //isItOddOrEven(15);
+  
+  if(isItOddOrEven(sum) === choice1) {
+    console.log("Right guess. You won!");
+    document.write("Right guess. You won!");
+} else {
+    console.log("No no. You Lost!");
+    document.write(" No no. You Lost!");
+}
+
+
 
 
 }else{
