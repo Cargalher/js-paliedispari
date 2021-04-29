@@ -5,3 +5,11 @@
 
 // var choice = "even";
 var choice1 = prompt("Write; 'even' or 'odd' to play");
+
+if(choice1 === "even" || choice1 === "odd"){
+console.log("Let's Play!. ");
+document.write("Let's Play!. ");
+}else{
+    console.log('Invalid entry. Write "odd" or "even".');
+    document.write('Invalid entry. Write "odd" or "even".');
+}
