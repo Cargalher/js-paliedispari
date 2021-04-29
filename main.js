@@ -19,19 +19,17 @@ function palindrome (wordToCheck) {
                 // checking if the word is a palindrome comparing the word in lower cases with its reverse;
 
                 if(wordToCheck === output){
-                        console.log(palindrome);
+                        console.log("palindrome");
                 }else{
-                        console.log(Not palindrome);
-                }
-
-
-
-
-
-
-
-
-
-
+                        console.log("Not palindrome");
+                };
 
 }
+//calling the function on the word inserted by the user
+palindrome(word);
+
+
+
+
+
+
