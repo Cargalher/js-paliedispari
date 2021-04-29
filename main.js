@@ -3,7 +3,7 @@
 // Chiedere all’utente di inserire una parola
 var word = prompt("Write a word!");
 console.log("Let's check if your word: " + ""+ word + ""+ " is a palindrome.");
-
+document.write("Let's check if your word: " + '"' + word + '"'+ " is a palindrome." + "<br>");
 
 // Creare una funzione per capire se la parola inserita è palindroma
 function palindrome (wordToCheck) {
