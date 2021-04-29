@@ -6,6 +6,7 @@ console.log("Let's check if your word: " + ""+ word + ""+ " is a palindrome.");
 
 
 // Creare una funzione per capire se la parola inserita è palindroma
-function name (){
-    
+function palindrome (wordToCheck) {
+                var wordToCheck = wordToCheck.toLowerCase();                                //changing the word to lower case
+                console.log(wordToCheck);
 }
