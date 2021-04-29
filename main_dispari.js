@@ -9,6 +9,15 @@ var choice1 = prompt("Write; 'even' or 'odd' to play");
 if(choice1 === "even" || choice1 === "odd"){
 console.log("Let's Play!. ");                                       //When user writes even or odd ---> "let's Play!" will be printed.
 document.write("Let's Play!. ");
+var choice = Number (prompt("Insert a number"));
+
+function generateRandomNumber () {
+    return Math.floor(Math.random() * 5) + 1;
+    console.log(generateRandomNumber());
+  };
+   //checking generateRandomNumber() function;
+   console.log(generateRandomNumber());
+   
 }else{
     console.log('Invalid entry. Write "odd" or "even".');           //When user writes a diferent word  ---> 'Invalid entry. Write "odd" or "even".' will be printed.
     document.write('Invalid entry. Write "odd" or "even".');
