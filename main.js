@@ -11,7 +11,10 @@ function palindrome (wordToCheck) {
                 console.log(wordToCheck);
 
                 var input = wordToCheck.split("");
-                console.log(input);
+                console.log(input);                                                         //using the method split() to save the letters of the word into an array input;
+
+                var output = input.reverse().join("");                                      //using the reverse and join method to save the reverse traversing of the array input into a new variable output;   
+                console.log(output);
 
 
 
