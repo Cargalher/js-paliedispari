@@ -9,4 +9,19 @@ console.log("Let's check if your word: " + ""+ word + ""+ " is a palindrome.");
 function palindrome (wordToCheck) {
                 var wordToCheck = wordToCheck.toLowerCase();                                //changing the word to lower case
                 console.log(wordToCheck);
+
+                var input = wordToCheck.split("");
+                console.log(input);
+
+
+
+
+
+
+
+
+
+
+
+
 }
