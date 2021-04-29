@@ -15,9 +15,19 @@ function generateRandomNumber () {
     return Math.floor(Math.random() * 5) + 1;
     console.log(generateRandomNumber());
   };
+
    //checking generateRandomNumber() function;
    console.log(generateRandomNumber());
-   
+
+   var computerNumber = generateRandomNumber();
+   document.write(' The computer number is ' + computerNumber + " ." );
+
+   var sum = choice + computerNumber;
+   console.log(sum);
+   document.write(' The sum of your number and the computer number is ' + sum + "." );
+
+
+
 }else{
     console.log('Invalid entry. Write "odd" or "even".');           //When user writes a diferent word  ---> 'Invalid entry. Write "odd" or "even".' will be printed.
     document.write('Invalid entry. Write "odd" or "even".');
